@@ -3,7 +3,7 @@ package com.adminex.aclservice.controller;
 
 import com.adminex.aclservice.entity.Permission;
 import com.adminex.aclservice.service.PermissionService;
-import com.adminex.common.utils.R;
+import com.adminex.common.core.utils.R;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -30,14 +30,14 @@ public class PermissionController {
     @ApiOperation(value = "查询所有菜单")
     @GetMapping
     public R indexAllPermission() {
-        List<Permission> list =  permissionService.queryAllMenu();
-        return R.ok().data("children",list);
+        List<Permission> list = permissionService.queryAllMenu();
+        return R.ok().data("children", list);
     }
 
     @ApiOperation(value = "给角色分配权限")
     @PostMapping("/doAssign")
-    public R doAssign(String roleId,String[] permissionId) {
-        permissionService.saveRolePermissionRealtionShipGuli(roleId,permissionId);
+    public R doAssign(String roleId, String[] permissionId) {
+        permissionService.saveRolePermissionRealtionShipGuli(roleId, permissionId);
         return R.ok();
     }
 

@@ -14,8 +14,11 @@
     <!--    <packaging>war</packaging>   需要部署的项目-->
     <packaging>pom</packaging>
     <modules>
-        <module>service_base</module>
-        <module>spring_security</module>
+        <module>adminex-common-swagger</module>
+        <module>adminex-common-redis</module>
+        <module>adminex-common-security</module>
+        <module>adminex-common-core</module>
+        <module>adminex-common-oss</module>
     </modules>
 
     <dependencies>

@@ -19,7 +19,27 @@
     <dependencies>
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>service_base</artifactId>
+            <artifactId>adminex-common-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>adminex-common-oss</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>adminex-common-redis</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>adminex-common-security</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>adminex-common-swagger</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

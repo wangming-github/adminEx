@@ -1,7 +1,7 @@
 package com.adminex.aclservice.controller;
 
 import com.adminex.aclservice.service.IndexService;
-import com.adminex.common.utils.R;
+import com.adminex.common.core.utils.R;
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;

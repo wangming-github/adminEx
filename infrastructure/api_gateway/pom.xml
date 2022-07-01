@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>service_base</artifactId>
+            <artifactId>adminex-common-core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
